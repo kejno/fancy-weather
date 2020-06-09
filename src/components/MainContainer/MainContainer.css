@@ -1,0 +1,29 @@
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2,fit-content(50%));
+    grid-template-rows: 61% 22%;
+    gap: 3%;
+    padding: 0 60px;
+    justify-content: space-between;
+    height: 100vh;
+}
+@media (max-width: 1190px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width: 710px) {
+    .main-container{
+        margin-top: 85px;
+        padding: 0 30px;
+    }
+  }
+
+  @media (max-width: 440px) {
+    .main-container{
+        margin-top: 85px;
+        padding: 0 15px;
+    }
+  }

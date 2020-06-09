@@ -1,0 +1,27 @@
+.map{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 100% 100%, 96% 94%, 0 94%);
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 100% 100%, 96% 94%, 0 94%);
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    width: 430px;
+}
+
+@media (max-width: 1190px) {
+ .map{
+     margin: 20px auto;
+     width: 430px;
+ }
+  }
+
+  @media (max-width: 520px) {
+    .map{
+        width: 320px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .map{
+        width: 290px !important;
+    }
+}

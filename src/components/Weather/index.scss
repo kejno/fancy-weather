@@ -1,0 +1,10 @@
+.app-container {
+    background-image: linear-gradient(#f1a0a0, #2f378e);
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    transition: background-image 1.2s ease-out;
+
+}

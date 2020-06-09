@@ -1,0 +1,92 @@
+@import '../../scss-base/colors';
+
+.controls-container {
+  background-image: linear-gradient(180deg, rgba($color-black, 0.5), transparent);
+  box-sizing: border-box;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  width: 100%;
+  margin-bottom: 20px;
+  
+
+  .form-container {
+    margin-left: 20px;
+    background: rgba(0,0,0,.5);
+  }
+
+  .button-group-container {
+    margin-left: 40px;
+    background: rgba(0,0,0,.5);
+  }
+
+  .select {
+        .MuiSelect-select {
+      color: $color-white;
+    }
+
+    .select-icon {
+      fill: $color-white;
+    }
+
+    fieldset {
+      border-color: $color-white;
+    }
+
+    &:hover fieldset {
+      border-color: #fafafa;
+    }
+  }
+
+  .toggle-button-container {
+    margin-left: 30px;
+  }
+
+  .autocomplete-container {
+    margin-left: auto;
+    background: rgba(0,0,0,.5);
+    color: #fafafa;
+    position: relative;
+    width: 320px;
+    display: flex;
+  }
+}
+
+@media (max-width: 710px) {
+  .controls-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 10px;
+   
+  }
+  .autocomplete-container{
+    grid-column: 1/4;
+    grid-row: 2;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .autocomplete-container{
+     width: 100% !important;
+  }
+  .controls-container{
+    
+    grid-template-columns: repeat(3,1fr);
+    padding: 15px 15px 10px;
+  }
+  .form-container {
+    margin-left: 0 !important;
+  }
+}
+#outlined-search{
+  color: white;
+}
+
+/* .MuiToggleButton-root.Mui-selected{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.295);
+} */
+
+

@@ -2,7 +2,6 @@
 
 Stack: HTML, CSS, Material-ui, React, Typescript, API, Javascript
 
-Структура приложения
 Приложение состоит из четырёх функциональных блоков.
 
 - Блок контроля

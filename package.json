@@ -24,7 +24,7 @@
     "react-dom": "^16.13.1",
     "react-google-maps": "^9.4.5",
     "react-google-places-autocomplete": "^2.0.6",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-speech-kit": "^2.0.5",
     "react-yandex-maps": "^4.4.0",
     "typescript": "~3.7.2"
@@ -53,6 +53,6 @@
   "devDependencies": {
     "@types/autosuggest-highlight": "^3.1.0",
     "@types/lodash": "^4.14.151",
-    "node-sass": "^4.14.1"
+    "node-sass": "^9.0.0"
   }
 }
